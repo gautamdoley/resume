@@ -8,6 +8,10 @@ import Education from './components/education'
 import Additional from './components/additional'
 import Project from './components/projectHandle'
 import InternshipExp from './components/internship'
+import Knowledge from './components/knowledge'
+import Extra from './components/extra'
+import Personal from './components/p_details'
+import Declaration from './components/declaration'
 
 class App extends React.Component{
 
@@ -21,6 +25,10 @@ class App extends React.Component{
         <Additional/>
         <Project />
         <InternshipExp />
+        <Knowledge />
+        <Extra />
+        <Personal />
+        <Declaration />
       </div>
       );
   }
