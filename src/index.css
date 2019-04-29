@@ -12,3 +12,45 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.body-div{
+	margin: 100px 250px 100px 250px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.m-l{
+	margin-left: 10px; 
+	font-style: italic;
+	font-weight: 500;
+	text-decoration: underline;
+}
+.m-t{
+	margin-top: -10px; 
+}
+.new_head{
+	text-decoration: underline;
+	font-weight: 400;
+	font-size: 800;
+	margin: 40px 0 20px 0;
+}
+.p{
+	font-style: oblique;
+    font-weight: 500;
+}
+.center{
+	text-align: center;
+}
+
+.td-data{
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 10px;
+}
+.teble-t-l{
+	width: 100%;
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+}
+/*.text-shadow{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}*/
