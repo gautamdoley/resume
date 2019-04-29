@@ -6,6 +6,7 @@ import Contacts from './components/contacts'
 import Objective from './components/objective'
 import Education from './components/education'
 import Additional from './components/additional'
+import Project from './components/projectHandle'
 
 class App extends React.Component{
 
@@ -17,6 +18,7 @@ class App extends React.Component{
         <Objective />
         <Education />
         <Additional/>
+        <Project />
       </div>
       );
   }
